@@ -1,0 +1,15 @@
+body { font-family: 'Times New Roman', Times, serif, sans-serif; margin:0; padding:0;background-image:url('Zebra1.jpg'); background-size:contain; background-color:#14460f; color:#fcf9fb; }
+header { background-image:url('images/header.jpg'); background-size:contain; background-position:center; color:rgb(252, 251, 250); padding:100px 20px; text-align:center; }
+header h1 { font-size:50px; text-shadow:5px 5px 5px rgb(248, 14, 170); }
+header p { font-size:40px; text-shadow:5px 5px 5px rgba(38, 24, 243, 0.938); margin-top:20px; }
+nav ul { list-style:circle; display:flex; justify-content:center; gap:20px; padding:0; margin:10px 0 0 0; }
+nav ul li a { color:rgb(243, 63, 8); text-decoration:blueviolet; font-weight:bold; }
+nav ul li a:hover { text-decoration:underline; }
+section { padding:40px 20px; text-align:center; }
+h2 { color:#ffac05; margin-bottom:15px; }
+.gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:15px; justify-items:center; }
+.gallery img { width:90%; border-radius:10px; box-shadow:0 4px 8px rgba(243, 247, 4, 0.87); transition:transform 0.3s ease; }
+.gallery img:hover { transform:scale(1.05); }
+footer { background-color:#f2f5f2; color:#083304; text-align:center; padding:10px 0; margin-top:40px; }
+.hidden { opacity:0; transform:translateY(30px); transition:opacity 1s ease-out, transform 1s ease-out; }
+.visible { opacity:2; transform:translateY(0); }
